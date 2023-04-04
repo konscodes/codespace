@@ -13,7 +13,7 @@
 	// "forwardPorts": [],
   
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "pip3 install --user -r requirements.txt",
+	"postCreateCommand": "curl -sSL https://raw.githubusercontent.com/konscodes/dotfiles/main/install.sh | bash",
   
 	// Configure tool-specific properties.
 	"customizations": {
