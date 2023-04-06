@@ -13,7 +13,7 @@
 	// "forwardPorts": [],
   
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "curl -sSL https://raw.githubusercontent.com/konscodes/dotfiles/main/install.sh | bash",
+	"postCreateCommand": "curl -sSL https://raw.githubusercontent.com/konscodes/dotfiles/main/scripts/install.sh | bash",
   
 	// Configure tool-specific properties.
 	"customizations": {
